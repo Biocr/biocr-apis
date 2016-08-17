@@ -1,4 +1,5 @@
 # biocr-apis
+[![Build Status](https://travis-ci.org/Biocr/biocr-apis.svg?branch=master)](https://travis-ci.org/Biocr/biocr-apis)
 
 TODO: Write a description here
 
