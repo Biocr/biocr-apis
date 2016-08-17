@@ -1,0 +1,762 @@
+[
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827367GSM2190169",
+        "TITLE": "GSM2190169: H9_1000701204-OGC16-sal_1_4ul_1 OGC16-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489325GSM2190169RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190169",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190169"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489325SAMN05211409GSM2190169",
+        "TITLE": "H9_1000701204-OGC16-sal_1_4ul_1 OGC16-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC16-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489325SAMN05211409GSM2190169"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641390GSM2190169_r1NextSeq 500SRS1489325SAMN05211409GSM2190169"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827366GSM2190168",
+        "TITLE": "GSM2190168: H9_1000701201-OGC16-sal_1_6ul_1 OGC16-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489324GSM2190168RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190168",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190168"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489324SAMN05211408GSM2190168",
+        "TITLE": "H9_1000701201-OGC16-sal_1_6ul_1 OGC16-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC16-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489324SAMN05211408GSM2190168"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641389GSM2190168_r4NextSeq 500SRS1489324SAMN05211408GSM2190168"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827365GSM2190167",
+        "TITLE": "GSM2190167: H9_1000701001-OGC14-sal_1_6ul_1 OGC14-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489323GSM2190167RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190167",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190167"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489323SAMN05211407GSM2190167",
+        "TITLE": "H9_1000701001-OGC14-sal_1_6ul_1 OGC14-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC14-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489323SAMN05211407GSM2190167"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641385GSM2190167_r4NextSeq 500SRS1489323SAMN05211407GSM2190167"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827364GSM2190166",
+        "TITLE": "GSM2190166: H9_1000700602-OGC11-sal_1_10ul_1 OGC11-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489322GSM2190166RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190166",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190166"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489322SAMN05211406GSM2190166",
+        "TITLE": "H9_1000700602-OGC11-sal_1_10ul_1 OGC11-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC11-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489322SAMN05211406GSM2190166"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641381GSM2190166_r4NextSeq 500SRS1489322SAMN05211406GSM2190166"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827363GSM2190165",
+        "TITLE": "GSM2190165: H9_1000700401-OGC7-coc_1_12ul_1 OGC07-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489321GSM2190165RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190165",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190165"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489321SAMN05211405GSM2190165",
+        "TITLE": "H9_1000700401-OGC7-coc_1_12ul_1 OGC07-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC07-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489321SAMN05211405GSM2190165"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641377GSM2190165_r8NextSeq 500SRS1489321SAMN05211405GSM2190165"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827362GSM2190164",
+        "TITLE": "GSM2190164: H8_1000701204-OGC16-sal_1_4ul_1 OGC16-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489319GSM2190164RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190164",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190164"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489319SAMN05211404GSM2190164",
+        "TITLE": "H8_1000701204-OGC16-sal_1_4ul_1 OGC16-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC16-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489319SAMN05211404GSM2190164"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641369GSM2190164_r1NextSeq 500SRS1489319SAMN05211404GSM2190164"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827361GSM2190163",
+        "TITLE": "GSM2190163: H8_1000701001-OGC14-sal_1_6ul_1 OGC14-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489320GSM2190163RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190163",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190163"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489320SAMN05211403GSM2190163",
+        "TITLE": "H8_1000701001-OGC14-sal_1_6ul_1 OGC14-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC14-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489320SAMN05211403GSM2190163"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641368GSM2190163_r4NextSeq 500SRS1489320SAMN05211403GSM2190163"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827360GSM2190162",
+        "TITLE": "GSM2190162: H8_1000700602-OGC11-sal_1_10ul_1 OGC11-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489318GSM2190162RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190162",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190162"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489318SAMN05211402GSM2190162",
+        "TITLE": "H8_1000700602-OGC11-sal_1_10ul_1 OGC11-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC11-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489318SAMN05211402GSM2190162"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641364GSM2190162_r4NextSeq 500SRS1489318SAMN05211402GSM2190162"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827359GSM2190161",
+        "TITLE": "GSM2190161: H8_1000700401-OGC7-coc_1_10ul_1 OGC07-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489317GSM2190161RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190161",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190161"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489317SAMN05211401GSM2190161",
+        "TITLE": "H8_1000700401-OGC7-coc_1_10ul_1 OGC07-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC07-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489317SAMN05211401GSM2190161"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641360GSM2190161_r4NextSeq 500SRS1489317SAMN05211401GSM2190161"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827358GSM2190160",
+        "TITLE": "GSM2190160: H8_1000700102-OGC9-sal_1_0ul_1 OGC09-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489316GSM2190160RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190160",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190160"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489316SAMN05211220GSM2190160",
+        "TITLE": "H8_1000700102-OGC9-sal_1_0ul_1 OGC09-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC09-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489316SAMN05211220GSM2190160"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641356GSM2190160_r4NextSeq 500SRS1489316SAMN05211220GSM2190160"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827357GSM2190159",
+        "TITLE": "GSM2190159: H7_1000701204-OGC16-sal_1_4ul_1 OGC16-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489314GSM2190159RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190159",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190159"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489314SAMN05211219GSM2190159",
+        "TITLE": "H7_1000701204-OGC16-sal_1_4ul_1 OGC16-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC16-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489314SAMN05211219GSM2190159"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641352GSM2190159_r1NextSeq 500SRS1489314SAMN05211219GSM2190159"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827356GSM2190158",
+        "TITLE": "GSM2190158: H7_1000701201-OGC16-sal_1_6ul_1 OGC16-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489313GSM2190158RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190158",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190158"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489313SAMN05211218GSM2190158",
+        "TITLE": "H7_1000701201-OGC16-sal_1_6ul_1 OGC16-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC16-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489313SAMN05211218GSM2190158"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641351GSM2190158_r4NextSeq 500SRS1489313SAMN05211218GSM2190158"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827355GSM2190157",
+        "TITLE": "GSM2190157: H7_1000701001-OGC14-sal_1_4ul_1 OGC14-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489312GSM2190157RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190157",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190157"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489312SAMN05211217GSM2190157",
+        "TITLE": "H7_1000701001-OGC14-sal_1_4ul_1 OGC14-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC14-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489312SAMN05211217GSM2190157"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641347GSM2190157_r4NextSeq 500SRS1489312SAMN05211217GSM2190157"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827354GSM2190156",
+        "TITLE": "GSM2190156: H7_1000700102-OGC9-sal_1_8ul_1 OGC09-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489311GSM2190156RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190156",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190156"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489311SAMN05211216GSM2190156",
+        "TITLE": "H7_1000700102-OGC9-sal_1_8ul_1 OGC09-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC09-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489311SAMN05211216GSM2190156"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641343GSM2190156_r4NextSeq 500SRS1489311SAMN05211216GSM2190156"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827353GSM2190155",
+        "TITLE": "GSM2190155: H6_1000700602-OGC11-sal_1_4ul_1 OGC11-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489310GSM2190155RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190155",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190155"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489310SAMN05211215GSM2190155",
+        "TITLE": "H6_1000700602-OGC11-sal_1_4ul_1 OGC11-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC11-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489310SAMN05211215GSM2190155"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641340GSM2190155_r4NextSeq 500SRS1489310SAMN05211215GSM2190155"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827352GSM2190154",
+        "TITLE": "GSM2190154: H5_1000701204-OGC16-sal_1_10ul_1 OGC16-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489309GSM2190154RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190154",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190154"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489309SAMN05211214GSM2190154",
+        "TITLE": "H5_1000701204-OGC16-sal_1_10ul_1 OGC16-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC16-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489309SAMN05211214GSM2190154"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641336GSM2190154_r1NextSeq 500SRS1489309SAMN05211214GSM2190154"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827351GSM2190153",
+        "TITLE": "GSM2190153: H5_1000701201-OGC16-sal_1_4ul_1 OGC16-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489308GSM2190153RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190153",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190153"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489308SAMN05211213GSM2190153",
+        "TITLE": "H5_1000701201-OGC16-sal_1_4ul_1 OGC16-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC16-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489308SAMN05211213GSM2190153"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641335GSM2190153_r4NextSeq 500SRS1489308SAMN05211213GSM2190153"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827350GSM2190152",
+        "TITLE": "GSM2190152: H5_1000701001-OGC14-sal_1_6ul_1 OGC14-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489307GSM2190152RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190152",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190152"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489307SAMN05211212GSM2190152",
+        "TITLE": "H5_1000701001-OGC14-sal_1_6ul_1 OGC14-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC14-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489307SAMN05211212GSM2190152"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641331GSM2190152_r4NextSeq 500SRS1489307SAMN05211212GSM2190152"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827349GSM2190151",
+        "TITLE": "GSM2190151: H5_1000700602-OGC11-sal_1_6ul_1 OGC11-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489315GSM2190151RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190151",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190151"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489315SAMN05211211GSM2190151",
+        "TITLE": "H5_1000700602-OGC11-sal_1_6ul_1 OGC11-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC11-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489315SAMN05211211GSM2190151"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641327GSM2190151_r4NextSeq 500SRS1489315SAMN05211211GSM2190151"
+      }
+    }
+  },
+  {
+    "EXPERIMENT_PACKAGE": {
+      "EXPERIMENT": {
+        "IDENTIFIERS": "SRX1827348GSM2190150",
+        "TITLE": "GSM2190150: H5_1000700401-OGC7-coc_1_8ul_1 OGC07-sal FACS-scRNA-Seq; Mus musculus; RNA-Seq",
+        "STUDY_REF": "SRP076212",
+        "DESIGN": "SRS1489306GSM2190150RNA-SeqTRANSCRIPTOMICcDNAAcute brain slices were cut from 5-7 weeks old male mouse and after papain treatment dissociated mechanically (SI Methods). Live cells were purified by either magnetic bead-activated cell sorting (MACS;Miltenyi Biotec) or by fluorescence-activated cell sorting (FACS). For cell type specific isolation genetically labeled MSN subtypes D1-, D2-MSN, and astrocytes were purified by FACS. Single cells were captured on a microfluidic chip on the C1 system (Fluidigm) and whole-transcriptome amplified cDNA was prepared on chip using theSMARTer Ultra LowRNAkit for Illumina (Clontech). For smart-seq2 protocol, three MSN populations (D1-MSN tdTom+, D1-MSN GFP+ and tdTom+/GFP+ MSNs) sorted individually into 96 well plates with lysis buffer and spun down and frozen at -80°C and amplified using the protocol as described previously (Picelli et al., 2013). Libraries were prepared using Illumina Nextera XT kit per illumina's protocols.",
+        "PLATFORM": "NextSeq 500",
+        "EXPERIMENT_LINKS": "gds302190150",
+        "EXPERIMENT_ATTRIBUTES": "GEO AccessionGSM2190150"
+      },
+      "SUBMISSION": {
+        "IDENTIFIERS": "SRA431419GEO: GSE82187"
+      },
+      "Organization": {
+        "Name": "NCBI",
+        "Contact": "GeoCurators"
+      },
+      "STUDY": {
+        "IDENTIFIERS": "SRP076212PRJNA324641GSE82187",
+        "DESCRIPTOR": "Cellular Taxonomy of the Mouse Striatum as Revealed by Single-Cell RNAseqThe striatum contributes to many cognitive processes and disorders, but its cell types are incompletely characterized. We show that microfluidic and FACS-based single-cell RNA sequencing of mouse striatum provides a well-resolved classification of striatal cell type diversity. Transcriptome analysis revealed 10 differentiated distinct cell types, including neurons, astrocytes, oligodendrocytes, ependymal, immune, and vascular cells, and enabled the discovery of numerous novel marker genes. Furthermore, we identified two discrete subtypes of medium spiny neurons (MSN) which have specific markers and which overexpress genes linked to cognitive disorders and addiction. We also describe continuous cellular identities, which increase heterogeneity within discrete cell types. Finally, we identified cell type specific transcription and splicing factors that shape cellular identities by regulating splicing and expression patterns. Our findings suggest that functional diversity within a complex tissue arises from a small number of discrete cell types, which can exist in a continuous spectrum of functional states. Overall design: We measured the transcriptome of 1208 single striatal cells using two complementary approaches; microfluidic single-cell RNAseq (Mic-scRNAseq) and single cell isolation by FACS (FACS-scRNAseq) (Table S1). We sampled cells either randomly or enriched specifically for MSNs or astrocytes using FACS from D1- tdTomato (tdTom)/D2-GFP or Aldhl1-GFP mice, respectivelyGSE82187",
+        "STUDY_LINKS": "pubmed27425622"
+      },
+      "SAMPLE": {
+        "IDENTIFIERS": "SRS1489306SAMN05211210GSM2190150",
+        "TITLE": "H5_1000700401-OGC7-coc_1_8ul_1 OGC07-sal FACS-scRNA-Seq",
+        "SAMPLE_NAME": "10090Mus musculus",
+        "SAMPLE_LINKS": "bioproject324641PRJNA324641",
+        "SAMPLE_ATTRIBUTES": "source_namestriatumexperimentOGC07-salmajor cell typeNeuronprotocolFACS-scRNA-Seq"
+      },
+      "Pool": {
+        "Member": "SRS1489306SAMN05211210GSM2190150"
+      },
+      "RUN_SET": {
+        "RUN": "SRR3641322GSM2190150_r8NextSeq 500SRS1489306SAMN05211210GSM2190150"
+      }
+    }
+  }
+]

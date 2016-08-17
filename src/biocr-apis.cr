@@ -1,4 +1,4 @@
-require "./biocr-apis/*"
+require "./biocr-apis/**"
 
 module Biocr::Apis
   # TODO Put your code here
