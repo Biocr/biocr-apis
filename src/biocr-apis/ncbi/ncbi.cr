@@ -1,5 +1,4 @@
 require "http/client"
-require "xml"
 require "json"
 
 module Biocr
