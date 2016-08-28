@@ -24,4 +24,12 @@ describe Biocr::Apis do
       ncbi.summary("biosample", result)
     end
   end
+
+  it "fetch term and donwload a fasta file" do
+    ncbi = Biocr::Apis::NCBI.new
+    result = ncbi.search("protein", "Latrodectus katipo[Organism]")
+
+    summary = ncbi.fetch("protein", result, "fasta")
+    summary.includes?(">gi|167843271|gb|ACA03542.1|").should eq(true)
+  end
 end

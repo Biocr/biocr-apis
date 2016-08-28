@@ -18,14 +18,14 @@ module Biocr
 
       def request(query)
         query = query.gsub(" ", "%20")
-        response = HTTP::Client.get("#{BASE_URL}#{query}&retmode=json")
+        response = HTTP::Client.get("#{BASE_URL}#{query}")
         # TODO: handle possible errors
-        JSON.parse(response.body)
+        response.body
       end
 
       def search(db : String, term : String)
-        query = "esearch.fcgi?db=#{db}&term=#{term}"
-        response = request(query)
+        query = "esearch.fcgi?db=#{db}&term=#{term}&retmode=json"
+        response = JSON.parse(request(query))
 
         count = response["esearchresult"]["count"].as_s
         ids = response["esearchresult"]["idlist"]
@@ -40,9 +40,9 @@ module Biocr
       def summary(db, ids)
         result = Array(Summary).new
 
-        query = "esummary.fcgi?db=#{db}&id=#{ids.join(",")}"
+        query = "esummary.fcgi?db=#{db}&id=#{ids.join(",")}&retmode=json"
 
-        response = request(query)
+        response = JSON.parse(request(query))
         uids = response["result"]["uids"]
 
         uids.map do |uid|
@@ -59,7 +59,9 @@ module Biocr
         result
       end
 
-      def download(ids : Array(String), ret_mode = Retmode::Fasta)
+      def fetch(db, ids, ret_mode = "fasta")
+        query = "efetch.fcgi?db=#{db}&id=#{ids.join(",")}&rettype=#{ret_mode}"
+        response = request(query)
       end
 
     end
