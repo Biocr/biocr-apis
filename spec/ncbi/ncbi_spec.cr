@@ -18,7 +18,7 @@ describe Biocr::Apis do
     result.size.should eq(10)
   end
 
-  it "get summary from search ids" do
+  it "get summarys" do
     result = NCBI.search("popset", "Latrodectus katipo[Organism]")
     result.size.should eq(6)
 
@@ -26,10 +26,22 @@ describe Biocr::Apis do
     summary.size.should eq(6)
   end
 
+  it "raise error with invalid summary db" do
+    expect_raises Exception, "Invalid db name specified" do
+      NCBI.summary("bacon", [1,2,3])
+    end
+  end
+
   it "raise error with invalid querys" do
     result = NCBI.search("popset", "Latrodectus katipo[Organism]")
     expect_raises Exception, "cannot get document summary" do
       NCBI.summary("biosample", result)
+    end
+  end
+
+  it "raise error with invalid search" do
+    expect_raises Exception, "{\"phrasesnotfound\" => [\"Latrodectus katipo[Organism]\"], \"fieldsnotfound\" => []}" do
+      NCBI.search("sra", "Latrodectus katipo[Organism]")
     end
   end
 

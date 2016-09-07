@@ -3,15 +3,6 @@ require "json"
 
 module Biocr
   module API::NCBI
-
-    struct Summary
-      property uid, title
-      def initialize()
-        @uid = String.new
-        @title = String.new
-      end
-    end
-
     BASE_URL = "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
 
     def self.request(query)
@@ -37,14 +28,11 @@ module Biocr
 
       response = JSON.parse(request(query))
 
-      count = response["esearchresult"]["count"].as_s
-      ids = response["esearchresult"]["idlist"]
+      # Raises error message
+      error_list = response["esearchresult"]["errorlist"]?
+      raise error_list.to_s if error_list
 
-      if count.to_i > 0
-        ids.to_a
-      else
-        [] of String
-      end
+      response["esearchresult"]["idlist"].as_a
     end
 
     # Returns document summaries from a list of IDs
@@ -64,17 +52,19 @@ module Biocr
       query = create_url(query, options)
 
       response = JSON.parse(request(query))
+
+      # Raises error message
+      error_list = response["esummaryresult"]?
+      raise error_list.to_s if error_list
+
       uids = response["result"]["uids"]
 
-      result = uids.each_with_object(Array(Summary).new) do |uid, result|
+      result = uids.each_with_object(Array(JSON::Any).new) do |uid, result|
         uid = uid.as_s
         if response["result"][uid].includes?("error")
           raise response["result"][uid]["error"].as_s
         else
-          summary = Summary.new
-          summary.title = response["result"][uid]["title"].as_s
-          summary.uid = response["result"][uid]["title"].as_s
-          result << summary
+          result << response["result"][uid]
         end
       end
       result
