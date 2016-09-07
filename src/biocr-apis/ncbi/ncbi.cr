@@ -22,7 +22,17 @@ module Biocr
         response.body
       end
 
-      def search(db : String, term : String)
+      # Returns a list of primary IDS
+      #
+      # See the online documentations for more explanations
+      # [ESearch](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESearch)
+      #
+      # Example:
+      # ```
+      # NCBI.search("protein", "Latrodectus katipo[Organism]")
+      # => ["167843271", "167843269", "167843267"....]
+      #
+      def search(db : String, term : String, **options)
         query = "esearch.fcgi?db=#{db}&term=#{term}&retmode=json"
         response = JSON.parse(request(query))
 
@@ -36,15 +46,27 @@ module Biocr
         end
       end
 
-      def summary(db, ids)
-        result = Array(Summary).new
-
-        query = "esummary.fcgi?db=#{db}&id=#{ids.join(",")}&retmode=json"
+      # Returns document summaries from a list of IDs
+      #
+      # See the online documentations for more explanations
+      # [ESummary](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESummary)
+      #
+      # **Parameters**
+      #
+      # **DB:** Database from which to retrieve DocSums. The value must be a valid Entrez database name.
+      #
+      # **ids:** UID list. Either a single UID or a comma-delimited list of UIDs may be provided.
+      #          All of the UIDs must be from the database specified by DB.
+      #
+      # **ret_mode:** By default, the summary will return a **JSON**, but you can specify an **XML**
+      #
+      def summary(db, ids, ret_mode = "json")
+        query = "esummary.fcgi?db=#{db}&id=#{ids.join(",")}&retmode=#{ret_mode}"
 
         response = JSON.parse(request(query))
         uids = response["result"]["uids"]
 
-        uids.map do |uid|
+        result = uids.each_with_object(Array(Summary).new) do |uid, result|
           uid = uid.as_s
           if response["result"][uid].includes?("error")
             raise response["result"][uid]["error"].as_s
