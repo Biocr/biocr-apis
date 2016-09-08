@@ -75,11 +75,11 @@ module Biocr
       response = request(query)
     end
 
-    def self.create_url(query, options)
+    def self.create_url(query, options = NamedTuple.new)
       opt = String.build do |io|
         # if don't provide a retmode, will set a JSON by default
         io << "&retmode=json" unless options.has_key?(:retmode)
-        options.each do |k,v|
+        options.each do |k, v|
           io << "&#{k}=#{v}"
         end
       end

@@ -2,10 +2,19 @@ require "../spec_helper"
 include Biocr::API
 
 describe Biocr::Apis do
-
   it "create a url with proper options" do
     result = NCBI.create_url("esearch.fcgi?db=sra&term=papain", {retmax: 10})
     result.should eq("esearch.fcgi?db=sra&term=papain&retmode=json&retmax=10")
+  end
+
+  it "create a url with retmode by default" do
+    result = NCBI.create_url("esearch.fcgi?db=sra&term=papain")
+    result.should eq("esearch.fcgi?db=sra&term=papain&retmode=json")
+  end
+
+  it "create a url with xml retmode" do
+    result = NCBI.create_url("esearch.fcgi?db=sra&term=papain", {retmode: "xml"})
+    result.should eq("esearch.fcgi?db=sra&term=papain&retmode=xml")
   end
 
   it "does search" do
@@ -28,7 +37,7 @@ describe Biocr::Apis do
 
   it "raise error with invalid summary db" do
     expect_raises Exception, "Invalid db name specified" do
-      NCBI.summary("bacon", [1,2,3])
+      NCBI.summary("bacon", [1, 2, 3])
     end
   end
 
